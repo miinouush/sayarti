@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Sayartii</title>
+</head>
+<body>
+    <!-- start overlay -->
+    <div class="overlay"></div>
+    <!-- end overlay -->
+    <!-- start header -->
+    <header>
+        <div class="container">
+            <img src="images/logo.png" alt="" class="logo">
+            <div class="filters">
+                <button class="filters-btn"><span>Filters </span><i class="fa-solid fa-sliders"></i></button>
+                <div class="search">
+                    <input type="search" name="" id="" placeholder="Search...">
+                    <i class="fa-solid fa-angle-down"></i>
+                    <div class="search-menu">
+                        <div class="choice">
+                            <div class="brand">
+                                <span>BMW</span>
+                                <img src="images/BMW.png" alt="">
+                            </div>
+                            <div class="model">
+                                <div>
+                                    BMW - <span>All models</span>
+                                </div>
+                                <div>
+                                    BMW - <span>3-series</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="choice">
+                            <div class="brand">
+                                <span>Hyundai</span>
+                                <img src="images/Hyundai.png" alt="">
+                            </div>
+                            <div class="model">
+                                <div>
+                                    Hyundai - <span>All models</span>
+                                </div>
+                                <div>
+                                    Hyundai- <span>Sonata</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="choice">
+                            <div class="brand">
+                                <span>Lexus</span>
+                                <img src="images/Lexus.png" alt="">
+                            </div>
+                            <div class="model">
+                                <div>
+                                    Lexus - <span>All models</span>
+                                </div>
+                                <div>
+                                    Lexus - <span>RX-series</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="choice">
+                            <div class="brand">
+                                <span>Volkswagen</span>
+                                <img src="images/Volkswagen.png" alt="">
+                            </div>
+                            <div class="model">
+                                <div>
+                                    Volkswagen - <span>All models</span>
+                                </div>
+                                <div>
+                                    Volkswagen - <span>Golf R</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flag-menu">
+                <div class="flag">
+                    <span class="flag-container">
+                        <img  alt="">
+                    </span>
+                </div>
+                <div class="toggle-menu">
+                    <button class="">Menu</button>
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end header -->
+    <!-- start right sidebar -->
+    <div class="right-sidebar">
+        <div class="header">
+            <i class="fa-solid fa-angle-left back-btn"></i>
+            <h3>Menu</h3>
+            <i class="fa-solid fa-xmark close-btn"></i>
+        </div>
+        <div class="body">
+            <div class="menu">
+                <div>
+                    <p class="login-btn"><i class="fa-regular fa-address-card"></i> Login/Register</p>
+                </div>
+                <div>
+                    <p><i class="fa-solid fa-earth-americas"></i> Country</p>
+                    <select name="" id="">
+                        <option value="">Algeria</option>
+                        <option value="">Egypt</option>
+                        <option value="">Saoudi</option>
+                        <option value="">Yamen</option>
+                    </select>
+                </div>
+                <div>
+                    <p><i class="fa-solid fa-coins"></i> Currency</p>
+                    <select name="" id="">
+                        <option value="">DZD</option>
+                        <option value="">AED</option>
+                        <option value="">BHD</option>
+                        <option value="">EUR</option>
+                    </select>
+                </div>
+                <div>
+                    <p><i class="fa-solid fa-book"></i> Language</p>
+                    <select name="" id="">
+                        <option value="">Arab</option>
+                        <option value="">Anglais</option>
+                        <option value="">Français</option>
+                    </select>
+                </div>
+                <button class="sell-btn">sell your car</button>
+            </div>
+            <div class="register">
+                <input type="text" name="" id="" placeholder="Name">
+                <input type="text" name="" id="" placeholder="Email">
+                <select name="" id="" aria-placeholder="Location">
+                    <option value="">Algeria</option>
+                    <option value="">Egypt</option>
+                    <option value="">Saudi</option>
+                </select>
+                <button class="register-btn">Register</button>
+            </div>
+            <div class="login">
+                <input type="text" placeholder="Email">
+                <input type="Password" placeholder="Password">
+                <button>login</button>
+            </div>
+        </div>
+    </div>
+    <!-- end right sidebar -->
+    <!-- start left sidebar -->
+    <div class="left-sidebar">
+        <div class="body">
+            <div class="title">
+                <h3>You are searching</h3>
+                <p class="clear-search">Clear search <i class="fa-regular fa-trash-can"></i></p>
+            </div>
+            <select name="" id="" aria-placeholder="">
+                <option value="">All Algeria</option>
+                <option value="">Setif</option>
+                <option value="">Adrar</option>
+                <option value="">Oran</option>
+                <option value="">Ouragla</option>
+            </select>
+            <div>
+                <p>Make / Model</p>
+                <input class="large" type="text" placeholder="Add Make and Model">
+            </div>
+            <div>
+                <p>Year</p>
+                <input type="text" placeholder="From">
+                <input type="text" placeholder="To">
+            </div>
+            <div>
+                <p>Keyword</p>
+                <input class="large" type="text" placeholder="Keyword">
+            </div>
+            <div>
+                <p>Body Type</p>
+                <div class="types">
+                    <button>
+                        <img src="images/coupe.svg" alt="">
+                        <span>Coupe</span>
+                    </button>
+                    <button>
+                        <img src="images/sedan.svg" alt="">
+                        <span>Sedan</span>
+                    </button>
+                    <button>
+                        <img src="images/suv.svg" alt="">
+                        <span>SUV</span>
+                    </button>
+                    <button>
+                        <img src="images/hatch.svg" alt="">
+                        <span>Hatch</span>
+                    </button>
+                    <button>
+                        <img src="images/wagon.svg" alt="">
+                        <span>Wagon</span>
+                    </button>
+                    <button>
+                        <img src="images/pickup.svg" alt="">
+                        <span>Pickup</span>
+                    </button>
+                    <button>
+                        <img src="images/minivan.svg" alt="">
+                        <span>Minivan</span>
+                    </button>
+                    <button>
+                        <img src="images/commercial.svg" alt="">
+                        <span>Commercial</span>
+                    </button>
+                    <button>
+                        <img src="images/other.svg" alt="">
+                        <span>Other</span>
+                    </button>
+                </div>
+            </div>
+            <div>
+                <p>Condition</p>
+                <div>
+                    <button>New</button>
+                    <button>Used</button>
+                </div>
+            </div>
+            <div>
+                <p>Price</p>
+                <input type="text" placeholder="Min">
+                <input type="text" placeholder="Max">
+            </div>
+            <div>
+                <p>Mileage</p>
+                <input type="text" placeholder="Min">
+                <input type="text" placeholder="Max">
+            </div>
+            <div>
+                <p>Gear Box</p>
+                <div>
+                    <button>Automatic</button>
+                    <button>Manuel</button>
+                </div>
+            </div>
+            <div>
+                <p>Doors</p>
+                <div>
+                    <button>2</button>
+                    <button>3</button>
+                    <button>4</button>
+                    <button>5</button>
+                </div>
+            </div>
+            <div>
+                <p>Cylinders</p>
+                <div>
+                    <button>2</button>
+                    <button>3</button>
+                    <button>4</button>
+                    <button>5</button>
+                    <button>6</button>
+                    <button>8</button>
+                    <button>10</button>
+                    <button>12</button>
+                    <button>16</button>
+                </div>
+            </div>
+            <div>
+                <p>Color</p>
+                <div>
+                    <button>Beige</button>
+                    <button>Black</button>
+                    <button>Blue</button>
+                    <button>Brown</button>
+                    <button>Gold</button>
+                    <button>Green</button>
+                    <button>Grey</button>
+                    <button>Purple</button>
+                    <button>Red</button>
+                    <button>Silver</button>
+                    <button>White</button>
+                    <button>White</button>
+                    <button>Yellow</button>
+                    <button>Other</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <button class="cancel">Cancel</button>
+            <button class="results">Results</button>
+        </div>
+    </div>
+    <!-- end left sidebar -->
+    <!-- start sell circle -->
+    <div class="sell-circle">Sell</div>
+    <!-- end sell circle -->
+    <!-- start region settings -->
+    <div class="region-settings">
+        <div class="header">
+            <h3 class="title">Region Settings</h3>
+            <div class="description">
+                <div class="desc-content">
+                    <span class="flag-container">
+                        <img class="country-img"  alt="">
+                    </span>
+                    <div class="text">
+                        <div>Cars in <span class="country"></span></div>
+                        <div>Currency in <span class="currency"></span></div>
+                        <div>Language in <span class="language"></span></div>
+                    </div>
+                </div>
+                <button class="done">Done</button>
+            </div>
+        </div>
+        <div class="body">
+            <div class="title">Language</div>
+            <div class="languages">
+                <button class="english">English</button>
+                <button class="arabic">العربية</button>
+                <button class="français">Français</button>
+            </div>
+            <div class="title">
+                <span>Country</span>
+                <span>Currency</span>
+            </div>
+            <div class="country-infos" >
+                <button  class="country" data-country="Algeria"  data-currency="DZD" data-src="images/dz.svg">
+                    <span class="flag-container">
+                        <img data-country="Algeria"  data-currency="DZD" data-src="images/dz.svg" src="images/dz.svg" alt="">
+                    </span>
+                    Algeria - 8
+                </button>
+                <button class="currency" data-country="Algeria"  data-currency="DZD" data-src="images/dz.svg">DZD</button>
+            </div>
+            <div class="country-infos">
+                <button class="country" data-country="Bahrain" data-currency="BHD" data-src="images/bh.svg">
+                    <span class="flag-container">
+                        <img data-country="Bahrain" data-currency="BHD" data-src="images/bh.svg"  src="images/bh.svg" alt="">
+                    </span>
+                    Bahrain - 4846
+                </button>
+                <button class="currency" data-country="Bahrain" data-currency="BHD" data-src="images/bh.svg">BHD</button>
+            </div>
+            <div class="country-infos">
+                <button class="country" data-country="Comoros" data-currency="KMF" data-src="images/km.svg">
+                    <span class="flag-container">
+                        <img  data-country="Comoros" data-currency="KMF" data-src="images/km.svg" src="images/km.svg" alt="">
+                    </span>
+                    Comoros - 1
+                </button>
+                <button class="currency" data-country="Comoros" data-currency="KMF" data-src="images/km.svg">KMF</button>
+            </div>
+            <div class="country-infos" >
+                <button class="country" data-country="Djibouti" data-currency="DJF" data-src="images/dj.svg">
+                    <span class="flag-container">
+                        <img data-country="Djibouti" data-currency="DJF" data-src="images/dj.svg" src="images/dj.svg" alt="">
+                    </span>
+                    Djibouti - 4
+                </button>
+                <button class="currency" data-country="Djibouti" data-currency="DJF" data-src="images/dj.svg">DJF</button>
+            </div>
+            <div class="country-infos">
+                <button class="country" data-country="Morroco" data-currency="MAD" data-src="images/ma.svg">
+                    <span class="flag-container">
+                        <img data-country="Morroco" data-currency="MAD" data-src="images/ma.svg" src="images/ma.svg" alt="">
+                    </span>
+                    Morroco - 6
+                </button>
+                <button class="currency" data-country="Morroco" data-currency="MAD" data-src="images/ma.svg">MAD</button>
+            </div>
+            <div class="country-infos">
+                <button class="country" data-country="Jordan" data-currency="JOD" data-src="images/jo.svg">
+                    <span class="flag-container">
+                        <img class="country" data-country="Jordan" data-currency="JOD" data-src="images/jo.svg" src="images/jo.svg" alt="">
+                    </span>
+                    Jordan - 417
+                </button>
+                <button class="currency" data-country="Jordan" data-currency="JOD" data-src="images/jo.svg">JOD</button>
+            </div>
+        </div>
+    </div>
+    <!-- end region settings -->
+    <!-- start landing section -->
+    <div class="landing-section">
+        <div class="container">
+            <div class="landing-content">
+                <img class="bg-image" src="images/bg-car-v2.png" alt="">
+                <div class="title">
+                    <h1 class="logo">sayarat<span>ii</span></h1>
+                    <h1 class="country-name"></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end landing section -->
+    <!-- start budget -->
+    <div class="budget">
+        <div class="container">
+            <h3>Great cars for every budget</h3>
+            <form action="">
+                <input type="number" name="" id="" placeholder="Your car budget">
+                <button>Surprise Me</button>
+            </form>
+        </div>
+    </div>
+    <!-- end budget -->
+    <!-- start categories -->
+    <div class="categories">
+        <div class="container">
+            <div class="main-title">
+                <h1>categories</h1>
+            </div>
+            <div class="categories-content">
+                <div class="category">
+                    <img src="images/w720-economy.jpg" alt="">
+                    <a href="" class="text">
+                        <h3>Economy</h3>
+                        <p>Affordable economy cars</p>
+                    </a>
+                </div>
+                <div class="category">
+                    <img src="images/w720-family.jpg" alt="">
+                    <a href="" class="text">
+                        <h3>Family</h3>
+                        <p>Affordable family cars</p>
+                    </a>
+                </div>
+                <div class="category">
+                    <img src="images/w720-electric.jpg" alt="">
+                    <a href="" class="text">
+                        <h3>Electric</h3>
+                        <p>Affordable electric cars</p>
+                    </a>
+                </div>
+                <div class="category">
+                    <img src="images/w720-luxury.jpg" alt="">
+                    <a href="" class="text">
+                        <h3>Luxury</h3>
+                        <p>Luxury cars</p>
+                    </a>
+                </div>
+                <div class="category">
+                    <img src="images/w720-sport.jpg" alt="">
+                    <a href="" class="text">
+                        <h3>Sport</h3>
+                        <p>Affordable sport cars</p>
+                    </a>
+                </div>
+                <div class="category">
+                    <img src="images/w720-supercars.jpg" alt="">
+                    <a href="" class="text">
+                        <h3>Supercars</h3>
+                        <p>high-end sport cars</p>
+                    </a>
+                </div>
+                <div class="category">
+                    <img src="images/w720-adventure.jpg" alt="">
+                    <a href="" class="text">
+                        <h3>Adventure</h3>
+                        <p>Affordable adventure cars</p>
+                    </a>
+                </div>
+                <div class="category">
+                    <img src="images/w720-utility.jpg" alt="">
+                    <a href="" class="text">
+                        <h3>Utility</h3>
+                        <p>Affordable utility cars</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end categories -->
+    <!-- start body type -->
+    <div class="body-type">
+        <div class="container">
+            <div class="main-title">
+                <h1>body type</h1>
+            </div>
+            <div class="type-container">
+                <a href="" class="type">
+                    <img src="images/coupe.svg" alt="">
+                    <p>Coupe</p>
+                </a>
+                <a href="" class="type">
+                    <img src="images/sedan.svg" alt="">
+                    <p>Sedan</p>
+                </a>
+                <a href="" class="type">
+                    <img src="images/hatch.svg" alt="">
+                    <p>Hatch</p>
+                </a>
+                <a href="" class="type">
+                    <img src="images/wagon.svg" alt="">
+                    <p>Wagon</p>
+                </a>
+                <a href="" class="type">
+                    <img src="images/suv.svg" alt="">
+                    <p>SUV</p>
+                </a>
+                <a href="" class="type">
+                    <img src="images/pickup.svg" alt="">
+                    <p>Pickup</p>
+                </a>
+                <a href="" class="type">
+                    <img src="images/minivan.svg" alt="">
+                    <p>Minivan</p>
+                </a>
+                <a href="" class="type">
+                    <img src="images/other.svg" alt="">
+                    <p>Other</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- end body type -->
+    <!-- start makes -->
+    <div class="makes">
+        <div class="container">
+            <div class="main-title">
+                <h1>makes</h1>
+                <a href="">see all</a>
+            </div>
+            <div class="makes-container">
+                <a href="" class="make">
+                    <img src="images/Toyota.png" alt="">
+                    <p>toyota</p>
+                </a>
+                <a href="" class="make">
+                    <img src="images/Nissan.png" alt="">
+                    <p>nissan</p>
+                </a>
+                <a href="" class="make">
+                    <img src="images/Lexus.png" alt="">
+                    <p>lexus</p>
+                </a>
+                <a href="" class="make">
+                    <img src="images/Mercedes-Benz.png" alt="">
+                    <p>Mercedes-Benz</p>
+                </a>
+                <a href="" class="make">
+                    <img src="images/BMW.png" alt="">
+                    <p>BMW</p>
+                </a>
+                <a href="" class="make">
+                    <img src="images/Chevrolet.png" alt="">
+                    <p>chevrolet</p>
+                </a>
+                <a href="" class="make">
+                    <img src="images/Porsche.png" alt="">
+                    <p>Porsche</p>
+                </a>
+                <a href="" class="make">
+                    <img src="images/GMC.png" alt="">
+                    <p>Gmc</p>
+                </a>
+                <a href="" class="make">
+                    <img src="images/Jeep.png" alt="">
+                    <p>jeep</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- end makes -->
+    <!-- start latest cares -->
+    <div class="latest-cars">
+        <div class="container">
+            <div class="main-title">
+                <h1>Latest cars</h1>
+                <a href="">View all</a>
+            </div>
+            <div class="cars-container">
+                <div class="car">
+                    <img src="images/951fd089c1176bf70ab8621262483676a61adbe6_small.jpg" alt="">
+                    <div class="text">
+                        <h3>2021 Toyota Rav 4</h3>
+                        <div class="description">
+                            <p class="infos"><span class="nbr">301K</span><span class="label">km</span><span class="nbr"> . </span>2021 Toyota Rav 4</p>
+                            <p class="price"><span class="nbr">88,88,90,10</span><span class="label">DZD</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="car">
+                    <img src="images/245a16ffc0014f8d851c5920220082d37c2bcc1f_small.jpg" alt="">
+                    <div class="text">
+                        <h3>2021 Toyota Rav 4</h3>
+                        <div class="description">
+                            <p class="infos"><span class="nbr">301K</span><span class="label">km</span><span class="nbr"> . </span>2021 Toyota Rav 4</p>
+                            <p class="price"><span class="nbr">88,88,90,10</span><span class="label">DZD</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="car">
+                    <img src="images/3961e185b665c6b59a015a31707c480ffe142713_small.jpg" alt="">
+                    <div class="text">
+                        <h3>2021 Toyota Rav 4</h3>
+                        <div class="description">
+                            <p class="infos"><span class="nbr">301K</span><span class="label">km</span><span class="nbr"> . </span>2021 Toyota Rav 4</p>
+                            <p class="price"><span class="nbr">88,88,90,10</span><span class="label">DZD</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="car">
+                    <img src="images/6318bf68a4a74161f1eeb939c7c871d6836018a3_small.jpg" alt="">
+                    <div class="text">
+                        <h3>2021 Toyota Rav 4</h3>
+                        <div class="description">
+                            <p class="infos"><span class="nbr">301K</span><span class="label">km</span><span class="nbr"> . </span>2021 Toyota Rav 4</p>
+                            <p class="price"><span class="nbr">88,88,90,10</span><span class="label">DZD</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="car">
+                    <img src="images/951fd089c1176bf70ab8621262483676a61adbe6_small.jpg" alt="">
+                    <div class="text">
+                        <h3>2021 Toyota Rav 4</h3>
+                        <div class="description">
+                            <p class="infos"><span class="nbr">301K</span><span class="label">km</span><span class="nbr"> . </span>2021 Toyota Rav 4</p>
+                            <p class="price"><span class="nbr">88,88,90,10</span><span class="label">DZD</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="car">
+                    <img src="images/6318bf68a4a74161f1eeb939c7c871d6836018a3_small.jpg" alt="">
+                    <div class="text">
+                        <h3>2021 Toyota Rav 4</h3>
+                        <div class="description">
+                            <p class="infos"><span class="nbr">301K</span><span class="label">km</span><span class="nbr"> . </span>2021 Toyota Rav 4</p>
+                            <p class="price"><span class="nbr">88,88,90,10</span><span class="label">DZD</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="car">
+                    <img src="images/c661e1eb505c5dd0218309b00d084c84f9f4fe03_small.jpg" alt="">
+                    <div class="text">
+                        <h3>2021 Toyota Rav 4</h3>
+                        <div class="description">
+                            <p class="infos"><span class="nbr">301K</span><span class="label">km</span><span class="nbr"> . </span>2021 Toyota Rav 4</p>
+                            <p class="price"><span class="nbr">88,88,90,10</span><span class="label">DZD</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="car">
+                    <img src="images/ec0fe69b4c0a1ad7eead8aaa49353256d402f2c4_small.jpg" alt="">
+                    <div class="text">
+                        <h3>2021 Toyota Rav 4</h3>
+                        <div class="description">
+                            <p class="infos"><span class="nbr">301K</span><span class="label">km</span><span class="nbr"> . </span>2021 Toyota Rav 4</p>
+                            <p class="price"><span class="nbr">88,88,90,10</span><span class="label">DZD</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end latest cares -->
+    <!-- start footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <div class="description">
+                    <p>The Future of Car Classifieds in MENA.</p>
+                    <p>Sayartii is an Easy, Fast and Free car classifieds website for all and it tops it up with exposure across all the countries in the MENA region in a matter of seconds.</p>
+                    <div class="icons">
+                        <a href=""><i class="fa-brands fa-youtube active"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="links">
+                    <div>
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="">About us</a></li>
+                            <li><a href="">Classifieds</a></li>
+                            <li><a href="">Log in</a></li>
+                            <li><a href="">Sign in</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Support</h3>
+                        <ul>
+                            <li><a href="">Affiliates Program</a></li>
+                            <li><a href="">Became a Partner</a></li>
+                            <li><a href="">Terms and Conditions</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Contact us</h3>
+                        <ul>
+                            <li class="contact">
+                                <span>Email</span>
+                                <a href=""><i class="fa-regular fa-envelope"></i>sayartii@zoweeq.com</a>
+                            </li>
+                            <li class="contact">
+                                <span>Whatsapp</span>
+                                <a href=""><i class="fa-brands fa-whatsapp"></i>+971-505058090</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="copyright">Copyright © Sayartii 2024. All rights reserved.</div>
+        </div>
+    </footer>
+    <!-- end footer -->
+    <script src="js/main.js"></script>
+</body>
+</html>
